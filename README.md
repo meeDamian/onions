@@ -38,14 +38,12 @@ sudo service tor@default restart
 
 GnuGPG
 ------
-To use `hkps://keys.openpgp.org`, but through a hidden service:
-
-https://keys.openpgp.org/about/usage 
-
-To file `~/.gnupg/gpg.cong`, add (or replace `keyserver …`) line:
+To use `hkps://keys.openpgp.org` through a hidden service, to `~/.gnupg/gpg.cong` file add the following line:
 
 ```
 keyserver hkp://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion
 ```
 
-Should work on MacOS & Linux alike.
+If you already have a `keyserver …` line there, replace it.
+
+[Onion source](https://keys.openpgp.org/about/usage). Should work on MacOS & Linux alike.
