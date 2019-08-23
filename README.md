@@ -140,6 +140,12 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 | testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733`
 | regtest | N/A at the moment
 
+#### ⚡️ Altruistic Watchtowers
+
+| type    | connection string
+|---------|:------------------
+| mainnet | `02c690cdb81fec5caa9f0b1c925a13ee5412c0232668bd8c5787165532d577f689@lncmnlgypuendl5t.onion:991`
+
 Install Tor
 -----------
 The easiest ways to install Tor I've found so far.
