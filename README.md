@@ -58,6 +58,11 @@ If you already have a `keyserver …` line there, replace it.
 Keybase
 -------
 
+Keybase talks about their usage of Tor in more detail on [this page] [(clearnet)], but here's a **tl;dr:**
+
+[this page]: http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/docs/command_line/tor
+[(clearnet)]: https://keybase.io/docs/command_line/tor
+
 #### CLI
 
 Tor hidden address is used by the CLI internally by default.
