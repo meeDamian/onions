@@ -1,5 +1,5 @@
-List of onionable stuff
-=======================
+List of onions, and onionable things
+====================================
 
 This is a list of services integrateable easily with Tor.  Judge how well maintained it is by yourself.
 
@@ -10,6 +10,7 @@ It all assumes you have [Tor installed](#Install-Tor), running in background, an
 * [Bitcoin Git Repos](#Bitcoin-Git-Repos)
 * [GnuGPG](#GnuGPG)
 * [Keybase](#Keybase)
+* [Popular on Tor](#Popular-on-Tor)
 * [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
 
@@ -93,12 +94,28 @@ keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
 You can proxy all desktop client traffic through Tor by setting PROXY to `SOCKS5`,
 `127.0.0.1`, and `9050` in `Keybase -> Settings -> Advanced`.
 
+Popular on Tor
+--------------
+
+This table contains a list of `.onion` addresses of some more popular clearnet services
+
+| clearnet/name    | onion address
+|------------------|:--------------
+| Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
+| DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
+| Facebook.com     | https://www.facebookcorewwwi.onion
+| Keybase.io       | http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
+| NYTimes.com      | https://www.nytimes3xbfgragh.onion
+| ProtonMail.com   | https://protonirockerxow.onion
+| ThePirateBay.org | http://uj3wazyk5u4hnvtk.onion
+| WasabiWallet.io  | http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion
 
 Honorable Mentions
 ------------------
 
 These services are known for using Tor either extensively, or exclusively:
 
+<!-- TODO: add more -->
 <!-- TODO: add links -->
 * Samourai Wallet
 * Wasabi Wallet
@@ -109,19 +126,19 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 
 #### ⛓ Bitcoin nodes
 
-| type    | addresses     |
-|---------|:--------------|
-| mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`   |
-| testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`  |
-| regtest | N/A at the moment |
+| type    | addresses
+|---------|:----------
+| mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`   
+| testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`
+| regtest | N/A at the moment
 
 #### ⚡️ Lightning nodes
 
-| type    | connection string |
-|---------|:------------------|
-| mainnet | `032260c3b64b471b7eb0630b4af5d07ca94ff4e759573cbbe1bfb25845c375ed6e@o3s5j4j37nbyzgvbngn3ahpmttvviyensw34klhqzw7in7vfzz646lqd.onion:9735` |
-| testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733` |
-| regtest | N/A at the moment |
+| type    | connection string
+|---------|:------------------
+| mainnet | `032260c3b64b471b7eb0630b4af5d07ca94ff4e759573cbbe1bfb25845c375ed6e@o3s5j4j37nbyzgvbngn3ahpmttvviyensw34klhqzw7in7vfzz646lqd.onion:9735`
+| testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733`
+| regtest | N/A at the moment
 
 Install Tor
 -----------
