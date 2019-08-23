@@ -115,7 +115,7 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 | testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`  |
 | regtest | N/A at the moment |
 
-#### ⚡️ Lightning Network nodes
+#### ⚡️ Lightning nodes
 
 | type    | connection string |
 |---------|:------------------|
