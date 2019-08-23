@@ -110,7 +110,7 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 #### ⛓ Bitcoin nodes
 
 | type    | addresses     |
-|---------|---------------|
+|---------|:--------------|
 | mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`   |
 | testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`  |
 | regtest | N/A at the moment |
@@ -118,7 +118,7 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 #### ⚡️ Lightning Network nodes
 
 | type    | connection string |
-|---------|-------------------|
+|---------|:------------------|
 | mainnet | `032260c3b64b471b7eb0630b4af5d07ca94ff4e759573cbbe1bfb25845c375ed6e@o3s5j4j37nbyzgvbngn3ahpmttvviyensw34klhqzw7in7vfzz646lqd.onion:9735` |
 | testnet | `02e888295220a5254a5f0486538dc77c0357ee9727db2e9173e6a76646d4aa332e@hxz6xeqvmi5s6rbqqtgu4qkihgdkwbnc7h2vnsn3qkahhffau6afbsyd.onion:9733` |
 | regtest | N/A at the moment |
