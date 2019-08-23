@@ -17,13 +17,17 @@ It all assumes you have [Tor installed](#Install-Tor), running in background, an
 Bitcoin Git Repos
 -----------------
 
-Thanks to @laanwj, Bitcoin and some orbiting repos (`lnd`, `c-lightning`, `eclair`, Bitcoin meta stuff) are mirrored as a Tor hidden service at:
+Thanks to [@laanwj], Bitcoin and some orbiting repos (`lnd`, `c-lightning`, `eclair`, Bitcoin meta stuff) are mirrored as a Tor hidden service at:
+
+[@laanwj]: https://github.com/laanwj
 
 ```
 nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
 ```
 
-While all necessary instructions are on the website above, here's the **tl;dr:**
+While all necessary instructions are on [the website above], here's the **tl;dr:**
+
+[the website above]: http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
 
 #### Fresh clone of Bitcoin
 
