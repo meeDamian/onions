@@ -9,6 +9,7 @@ It all assumes you have [Tor installed](#Install-Tor), and running in background
 
 * [GnuGPG](#GnuGPG)
 * [Keybase](#Keybase)
+* [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
 
 
@@ -53,6 +54,15 @@ keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
 You can proxy all desktop client traffic through Tor by setting PROXY to `SOCKS5`,
 `127.0.0.1`, and `9050` in `Keybase -> Settings -> Advanced`.
 
+
+Honorable Mentions
+------------------
+
+These services are known for using Tor either extensively, or exclusively:
+
+<!-- TODO: add links -->
+* Samourai Wallet
+* Wasabi Wallet
 
 LNCM
 ----
