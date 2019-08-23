@@ -3,18 +3,48 @@ List of onionable stuff
 
 This is a list of services integrateable easily with Tor.  Judge how well maintained it is by yourself.
 
-It all assumes you have [Tor installed](#Install-Tor), and running in background with mostly default configuration (Tor listens on `127.0.0.1:9050`).
+It all assumes you have [Tor installed](#Install-Tor), running in background, and listening on `127.0.0.1:9050`.
 
 ### Index
 
+* [Bitcoin Git Repos](#Bitcoin-Git-Repos)
 * [GnuGPG](#GnuGPG)
 * [Keybase](#Keybase)
 * [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
 
 
+Bitcoin Git Repos
+-----------------
+
+Thanks to @laanwj, Bitcoin and some orbiting repos (`lnd`, `c-lightning`, `eclair`, Bitcoin meta stuff) are mirrored as a Tor hidden service at:
+
+```
+nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
+```
+
+While all necessary instructions are on the website above, here's the **tl;dr:**
+
+#### Fresh clone of Bitcoin
+
+```bash
+git -c http.proxy=socks5h://127.0.0.1:9050 clone http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion/git/bitcoin.git
+cd bitcoin
+git config --add remote.origin.proxy "socks5h://127.0.0.1:9050"
+```
+
+#### Change `origin` of lnd to Tor
+
+```bash
+cd lnd
+git remote set-url master http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion/git/lnd.git
+git config --add remote.master.proxy "socks5h://127.0.0.1:9050"
+git remote add github git@github.com:lightningnetwork/lnd.git
+```
+
 GnuGPG
 ------
+
 To use `hkps://keys.openpgp.org` through a hidden service, to `~/.gnupg/gpg.cong` file add the following line:
 
 ```
