@@ -107,8 +107,8 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 
 | type    | addresses     |
 |---------|---------------|
-| mainnet | `lncmdma3namzrbnx.onion:8333`, `lncmdmx7ezlplcck.onion:8333`, `lncmdmgoddecttey.onion:8444`   |
-| testnet | `lncmdmfl674xg3oa.onion:18333`, `lncmdmrpdhoeraa5.onion:18333`  |
+| mainnet | `lncmdma3namzrbnx.onion:8333` <br> `lncmdmx7ezlplcck.onion:8333` <br> `lncmdmgoddecttey.onion:8444`   |
+| testnet | `lncmdmfl674xg3oa.onion:18333`<br> `lncmdmrpdhoeraa5.onion:18333`  |
 | regtest | N/A at the moment |
 
 #### ⚡️ Lightning Network nodes
