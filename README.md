@@ -7,12 +7,28 @@ It all assumes you have [Tor installed](#Install-Tor), running in background, an
 
 ### Index
 
+* [Popular and on Tor](#Popular-and-on-Tor)
 * [Bitcoin Git Repos](#Bitcoin-Git-Repos)
 * [GnuGPG](#GnuGPG)
 * [Keybase](#Keybase)
-* [Popular on Tor](#Popular-on-Tor)
 * [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
+
+Popular and on Tor
+--------------
+
+Table below contains a list of `.onion` addresses for some more popular clearnet services.
+
+| clearnet/name    | onion address
+|------------------|:--------------
+| Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
+| DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
+| Facebook.com     | https://www.facebookcorewwwi.onion
+| Keybase.io       | http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
+| NYTimes.com      | https://www.nytimes3xbfgragh.onion
+| ProtonMail.com   | https://protonirockerxow.onion
+| ThePirateBay.org | http://uj3wazyk5u4hnvtk.onion
+| WasabiWallet.io  | http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion
 
 
 Bitcoin Git Repos
@@ -93,22 +109,6 @@ keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
 
 You can proxy all desktop client traffic through Tor by setting PROXY to `SOCKS5`,
 `127.0.0.1`, and `9050` in `Keybase -> Settings -> Advanced`.
-
-Popular on Tor
---------------
-
-This table contains a list of `.onion` addresses of some more popular clearnet services
-
-| clearnet/name    | onion address
-|------------------|:--------------
-| Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
-| DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
-| Facebook.com     | https://www.facebookcorewwwi.onion
-| Keybase.io       | http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
-| NYTimes.com      | https://www.nytimes3xbfgragh.onion
-| ProtonMail.com   | https://protonirockerxow.onion
-| ThePirateBay.org | http://uj3wazyk5u4hnvtk.onion
-| WasabiWallet.io  | http://wasabiukrxmkdgve5kynjztuovbg43uxcbcxn6y2okcrsg7gb6jdmbad.onion
 
 Honorable Mentions
 ------------------
