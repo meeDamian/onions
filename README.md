@@ -1,4 +1,4 @@
-Hyper onion-ization
+Hyper-onion-ization
 ====================
 
 This file is my curated list of all things Tor.  It all assumes:
