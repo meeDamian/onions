@@ -1,11 +1,13 @@
-List of onions, and onionable things
-====================================
+Hyper onionification
+=====================
 
-This is a list of services integrateable easily with Tor.  Judge how well maintained it is by yourself.
+This file is my curated list of all things Tor.  It all assumes:
 
-It all assumes you have [Tor installed](#Install-Tor), running in background, and listening on `127.0.0.1:9050`.
+* [Tor is installed](#Install-Tor)
+* running in background, and
+* listening on `127.0.0.1:9050`.
 
-### Index
+## Index
 
 * [Popular and on Tor](#Popular-and-on-Tor)
 * [Bitcoin Git Repos](#Bitcoin-Git-Repos)
@@ -13,6 +15,7 @@ It all assumes you have [Tor installed](#Install-Tor), running in background, an
 * [Keybase](#Keybase)
 * [Honorable Mentions](#Honorable-Mentions)
 * [LNCM](#LNCM)
+
 
 Popular and on Tor
 --------------
@@ -39,7 +42,7 @@ Thanks to [@laanwj], Bitcoin and some orbiting repos (`lnd`, `c-lightning`, `ecl
 [@laanwj]: https://github.com/laanwj
 
 ```
-nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
+http://nxshomzlgqmwfwhcnyvbznyrybh3gotlfgis7wkv7iur2yj2rarlhiad.onion
 ```
 
 While all necessary instructions are on [the website above], here's the **tl;dr:**
@@ -102,7 +105,7 @@ keybase config set tor.mode strict
 You can visit Keybase through their hidden service at:
 
 ```
-keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
+http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion
 ```
 
 #### Desktop
