@@ -120,6 +120,7 @@ These services are known for using Tor either extensively, or exclusively:
 
 <!-- TODO: add more -->
 <!-- TODO: add links -->
+* JoinMarket
 * Samourai Wallet
 * Wasabi Wallet
 
