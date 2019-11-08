@@ -171,3 +171,13 @@ sudo apt update && sudo apt install tor && sudo service tor@default restart && t
 ```
 
 > **Note:** `torrc` is located in `/etc/tor/torrc` by default.
+
+
+Other
+-------
+
+Here are other ```.onions``` you can use which don't fall into any of the above categories
+
+* [nolim1t.co onion](http://nlboxajljr5boevw3vyfryenhwqs5eehfh5pnbzjlnounrje5wulbnyd.onion/)
+* [UFTech Labs onion](http://uflabsykocgfkhkxo6fq4fzike4cxpq2dhcqsj3kosgprpkc6hva2iid.onion)
+* [Unassigned (possibly for LNCM purposes)](http://lncm5ceegpyrc2ts.onion/)
