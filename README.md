@@ -24,6 +24,7 @@ Table below contains a list of `.onion` addresses for some more popular clearnet
 
 | clearnet/name    | onion address
 |------------------|:--------------
+| BBC News         | https://www.bbcnewsv2vjtpsuy.onion
 | Blockstream.info | http://explorerzydxu5ecjrkwceayqybizmpjjznk5izmitf2modhcusuqlid.onion
 | DuckDuckGo.com   | https://3g2upl4pq6kufc4m.onion
 | Facebook.com     | https://www.facebookcorewwwi.onion
