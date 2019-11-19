@@ -131,9 +131,12 @@ A Chiang Mai-based Lightning Network oriented developer community.  Here's some 
 
 #### Websites
 
+Websites related to LNCM
+
 | clearnet/name    | onion address
 |------------------|:--------------
-| LNCM.io ([@nolim1t mirror](https://github.com/nolim1t))         | http://lncm5rjtcacoc6yf.onion/
+| LNCM.io ([@nolim1t TorV2 Mirror](https://github.com/nolim1t))         | http://lncm5rjtcacoc6yf.onion/
+
 
 #### ⛓ Bitcoin nodes
 
